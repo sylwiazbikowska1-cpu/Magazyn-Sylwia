@@ -1,6 +1,6 @@
-import streamlit as st
-from supabase import create_client
-
+streamlit
+pandas
+supabase
 # 1️⃣ Połączenie z Supabase
 SUPABASE_URL = "https://ahlsfzbzuvfoxvfjwcep.supabase.co"
 SUPABASE_KEY = "sb_publishable_TdCmBYcq2Bc3lorekcsZsA_p-oIi_sT"
