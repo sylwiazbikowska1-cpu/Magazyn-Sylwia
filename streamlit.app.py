@@ -31,7 +31,7 @@ def get_products(category_id):
         .data
     )
     def add_product(name, category_id):
-    supabase.table("products").insert({
+     supabase.table("products").insert({
         "name": name,
         "category_id": category_id
     }).execute()
