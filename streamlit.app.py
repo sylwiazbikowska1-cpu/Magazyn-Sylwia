@@ -153,4 +153,9 @@ elif strona == "Kategorie":
         kat_data = pobierz_kategorie()
         if kat_data:
             st.table(pd.DataFrame(kat_data)[['id', 'nazwa_kategorii']])
-uggsrizjsnyjsxoyvhtb.supabase.co
+# Na górze pliku (np. linie 1-10)
+from supabase import create_client
+
+url = "https://uggsrizjsnyjsxoyvhtb.supabase.co"
+key = "TWÓJ_KLUCZ_API"
+supabase = create_client(url, key)
