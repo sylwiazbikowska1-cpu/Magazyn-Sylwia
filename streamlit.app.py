@@ -5,7 +5,7 @@ from supabase import create_client
 SUPABASE_URL = "https://ahlsfzbzuvfoxvfjwcep.supabase.co"
 SUPABASE_KEY = "sb_publishable_TdCmBYcq2Bc3lorekcsZsA_p-oIi_sT"
 
- supabase = create_client(SUPABASE_URL, SUPABASE_KEY)
+supabase = create_client(SUPABASE_URL, SUPABASE_KEY)
 
 # 2️⃣ Funkcje do bazy danych
 def get_categories():
